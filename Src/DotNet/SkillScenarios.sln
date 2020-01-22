@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DialogToDialog2Instances", "DialogToDialog2Instances", "{CB9AD41A-AC04-43C2-B360-42FDE37E20DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DialogToDialog31", "DialogToDialog31", "{D1346CC0-D738-48CA-9CC8-19767ED9286D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SimpleBotToBot31", "SimpleBotToBot31", "{5B762E34-FCC1-46A3-A650-299D9CFBAE01}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DialogRootBot.1", "DialogToDialog2Instances\DialogRootBot.1\DialogRootBot.1.csproj", "{9AA2A114-4901-421E-B355-92E018E0C228}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DialogRootBot.2", "DialogToDialog2Instances\DialogRootBot.2\DialogRootBot.2.csproj", "{5243B804-BFC6-4D3E-B9E5-06E5F804945F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DialogRootBot31", "DialogToDialog31\DialogRootBot31\DialogRootBot31.csproj", "{C41E396B-3B02-46C7-B427-9DC399BF5C18}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DialogSkillBot31", "DialogToDialog31\DialogSkillBot31\DialogSkillBot31.csproj", "{461C53A6-726E-41C3-BCB6-C52D5404BB31}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EchoSkillBot31", "SimpleBotToBot31\EchoSkillBot31\EchoSkillBot31.csproj", "{EC63B2F9-A979-440D-8713-907F40086ADF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleRootBot31", "SimpleBotToBot31\SimpleRootBot31\SimpleRootBot31.csproj", "{728BC7C7-B29B-4973-B7C1-29DEDF80B308}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoInstancesSkillBot", "DialogToDialog2Instances\TwoInstancesSkillBot\TwoInstancesSkillBot.csproj", "{762165DF-15A3-4D66-9B14-57E5F3D4E9EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AA2A114-4901-421E-B355-92E018E0C228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AA2A114-4901-421E-B355-92E018E0C228}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AA2A114-4901-421E-B355-92E018E0C228}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AA2A114-4901-421E-B355-92E018E0C228}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5243B804-BFC6-4D3E-B9E5-06E5F804945F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5243B804-BFC6-4D3E-B9E5-06E5F804945F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5243B804-BFC6-4D3E-B9E5-06E5F804945F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5243B804-BFC6-4D3E-B9E5-06E5F804945F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C41E396B-3B02-46C7-B427-9DC399BF5C18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C41E396B-3B02-46C7-B427-9DC399BF5C18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C41E396B-3B02-46C7-B427-9DC399BF5C18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C41E396B-3B02-46C7-B427-9DC399BF5C18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{461C53A6-726E-41C3-BCB6-C52D5404BB31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{461C53A6-726E-41C3-BCB6-C52D5404BB31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{461C53A6-726E-41C3-BCB6-C52D5404BB31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{461C53A6-726E-41C3-BCB6-C52D5404BB31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC63B2F9-A979-440D-8713-907F40086ADF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC63B2F9-A979-440D-8713-907F40086ADF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC63B2F9-A979-440D-8713-907F40086ADF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC63B2F9-A979-440D-8713-907F40086ADF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{728BC7C7-B29B-4973-B7C1-29DEDF80B308}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{728BC7C7-B29B-4973-B7C1-29DEDF80B308}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{728BC7C7-B29B-4973-B7C1-29DEDF80B308}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{728BC7C7-B29B-4973-B7C1-29DEDF80B308}.Release|Any CPU.Build.0 = Release|Any CPU
+		{762165DF-15A3-4D66-9B14-57E5F3D4E9EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{762165DF-15A3-4D66-9B14-57E5F3D4E9EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{762165DF-15A3-4D66-9B14-57E5F3D4E9EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{762165DF-15A3-4D66-9B14-57E5F3D4E9EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9AA2A114-4901-421E-B355-92E018E0C228} = {CB9AD41A-AC04-43C2-B360-42FDE37E20DE}
+		{5243B804-BFC6-4D3E-B9E5-06E5F804945F} = {CB9AD41A-AC04-43C2-B360-42FDE37E20DE}
+		{C41E396B-3B02-46C7-B427-9DC399BF5C18} = {D1346CC0-D738-48CA-9CC8-19767ED9286D}
+		{461C53A6-726E-41C3-BCB6-C52D5404BB31} = {D1346CC0-D738-48CA-9CC8-19767ED9286D}
+		{EC63B2F9-A979-440D-8713-907F40086ADF} = {5B762E34-FCC1-46A3-A650-299D9CFBAE01}
+		{728BC7C7-B29B-4973-B7C1-29DEDF80B308} = {5B762E34-FCC1-46A3-A650-299D9CFBAE01}
+		{762165DF-15A3-4D66-9B14-57E5F3D4E9EA} = {CB9AD41A-AC04-43C2-B360-42FDE37E20DE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6E1C3C9-DE56-4974-933A-A23F3FE3332D}
+	EndGlobalSection
+EndGlobal
