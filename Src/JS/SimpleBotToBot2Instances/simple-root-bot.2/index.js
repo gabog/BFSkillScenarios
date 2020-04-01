@@ -104,7 +104,7 @@ const skillClient = new SkillHttpClient(credentialProvider, conversationIdFactor
 const bot = new RootBot(conversationState, skillsConfig, skillClient);
 
 // Create HTTP server
-const server = restify.createServer();
+const server = restify.createServer({ maxParamLength: 1000 });
 server.listen(process.env.port || process.env.PORT || 3979, function() {
     console.log(`\n${ server.name } listening to ${ server.url }`);
     console.log('\nGet Bot Framework Emulator: https://aka.ms/botframework-emulator');
